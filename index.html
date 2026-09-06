@@ -1,3 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A simple welcome page.">
+	<title>Welcome</title>
+	<style>
+		:root {
+			color-scheme: light;
+			font-family: Georgia, "Times New Roman", serif;
+			background: #f4efe7;
+			color: #20251f;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			background: linear-gradient(135deg, #f4efe7, #dce8df);
+		}
+
+		main {
+			width: min(100%, 42rem);
+			padding: clamp(2rem, 8vw, 5rem);
+			border: 1px solid #b9c8bb;
+			border-radius: 0.5rem;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 1rem 3rem rgba(32, 37, 31, 0.12);
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0 0 1rem;
+			font-size: clamp(2.5rem, 8vw, 4.5rem);
+			line-height: 1;
+		}
+
+		p {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			font-size: 1.1rem;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Hello, world!</h1>
+		<p>Welcome to my first web page.</p>
+	</main>
+</body>
+</html>
 <p> This is a paragraph </p>
 <br>
 <p>This is another paragraph</p>
